@@ -1,0 +1,70 @@
+body {
+	font-size: 12px;
+	font-family: Helvetica Neue, Helvetica, Arial, Verdana;
+	color: #444;
+	background: #EEE;
+}
+
+div#wrap {
+	position: absolute;
+	left: 50%;
+}
+
+div#canvas {
+	background: #FFF;
+	box-shadow: 0px 0px 10px #CCC;
+	-moz-box-shadow: 0px 0px 10px #CCC;
+	padding: 5px;
+	border-radius: 4px;
+	position: relative;
+	left: -50%;
+	margin: 10px auto;
+	width: auto;
+	height: auto;
+}
+
+div#canvas input {
+	width: 26px;
+	padding: 5px 0;
+	border-radius: 0px;
+	border: 1px solid #CCC;
+	margin: 0;
+	background: #EEE;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.bomb {
+	background: #FF0000 !important;
+	color: #FFF !important;
+}
+
+.clicked {
+	background: #333 !important;
+	color: #FFF !important;
+}
+
+h1, h2 {
+	text-align: center;
+	font-weight: 300;
+}
+
+div#error {
+	width: 300px;
+	text-align: center;
+	margin: 5px auto;
+	background: red;
+	color: #FFF;
+	font-weight: bold;
+	padding: 6px;
+}
+
+div#win {
+	width: 300px;
+	text-align: center;
+	margin: 5px auto;
+	background: green;
+	color: #FFF;
+	font-weight: bold;
+	padding: 6px;
+}
